@@ -1,0 +1,25 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+#box1 {
+  width: 300px;
+  height: 300px;
+  background-color: aqua;
+  position: absolute;
+  /* box 2 dikh raha hai lekin z index dene se box 1 upar a jata hai jiski z index jayda hoti hai bo z AXIs me utna upar
+  a jata hai */
+  z-index: 1;
+}
+#box2 {
+  width: 300px;
+  height: 300px;
+  background-color: rgb(144, 176, 38);
+  position: absolute;
+}
