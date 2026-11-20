@@ -23,7 +23,7 @@ body {
 .main {
   height: 100%;
   width: 100%;
-  background-color: purple;
+  background: linear-gradient(#f6e0b5, #efa990, #aa6f73, #a39193);
   padding: 25px;
   display: flex;
   flex-wrap: wrap;
@@ -68,4 +68,20 @@ button:hover {
   background-color: transparent;
   border-color: black;
   color: black;
+}
+h3 {
+  font-size: 100px;
+  font-weight: 100px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-style: italic;
+  color: #4a403a;
+}
+h1 {
+  font-size: 100px;
+  font-weight: 100px;
+  font-style: oblique;
+  color: #4a403a;
+}
+#suggestion {
+  padding: 50px;
 }
